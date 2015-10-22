@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#D2D2D2"
+    android:focusable="true"
+    android:layout_centerVertical="true"
+    android:id="@+id/mainView">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Въведете URL адреса на Вашата WEB версия:"
+        android:textColor="#4A6EA9"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/txtUrl"
+        android:inputType="textUri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_style"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="0dp"
+        android:textColor="#000"
+        android:hint="http://mw.gensoft.bg" />
+    <Button
+        android:id="@+id/btnStart"
+        android:text="Стартирай!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/button_start_style" />
+    <CheckBox
+        android:text="Запомни URL адреса"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cbxRememberUrl"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="90dp"
+        android:gravity="center"
+        android:textColor="#4A6EA9"
+        android:button="@drawable/checkbox_style" />
+</LinearLayout>
