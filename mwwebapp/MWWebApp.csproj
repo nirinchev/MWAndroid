@@ -55,6 +55,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Activities\MainActivity.cs" />
     <Compile Include="Activities\WebWrapperActivity.cs" />
+    <Compile Include="Activities\WebWrapperFragment.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -64,6 +65,7 @@
       <SubType>AndroidResource</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\WebWrapper.axml" />
+    <AndroidResource Include="Resources\layout\WebWrapperActivity.axml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Main.axml" />
