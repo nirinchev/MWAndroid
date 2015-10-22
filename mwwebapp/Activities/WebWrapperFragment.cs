@@ -71,7 +71,6 @@ namespace MWWebApp
 			request.AllowScanningByMediaScanner();
 			request.SetNotificationVisibility(DownloadVisibility.VisibleNotifyCompleted);
 			// TODO: set proper file name
-			//e.u
 			request.SetDestinationInExternalPublicDir(Environment.DirectoryDownloads, "report.docx");
 			var dm = this.Activity.GetSystemService(Context.DownloadService).JavaCast<DownloadManager>();
 			dm.Enqueue(request);
